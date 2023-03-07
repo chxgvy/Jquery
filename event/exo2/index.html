@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="nom">Nom</label><br>
+              <input type="text" id="nom" class="form-control">
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-group">
+              <label for="prenom">Prénom</label><br>
+              <input type="text" id="prenom" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="ddn">Date de naissance</label><br>
+              <input type="date" id="ddn" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center"><button class="btn btn-outline-success" id="sendForm">Envoyer</button></div>
+          </div>
+        </div>
+        <div id="resultat" class="invisible">
+          Nom : <span id="resNom"></span> <br>
+          Prénom: <span id="resPrenom"></span> <br>
+          Age : <span id="resAge"></span>
+        </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
