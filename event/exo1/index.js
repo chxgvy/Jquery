@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    var count = 0;
-    $('#myButton').click(function() {
+    let count = 0;
+    $('#button').click(function() {
       count++;
-      $('#clickCount').text(count);
+      $('#resultat').text(count);
     });
   });
